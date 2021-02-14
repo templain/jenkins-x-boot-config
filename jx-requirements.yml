@@ -3,7 +3,7 @@ cluster:
   environmentGitOwner: ""
   environmentGitPublic: false
   project: ""
-  provider: gke
+  provider: kubernetes
   zone: ""
 gitops: true
 environments:
@@ -11,7 +11,7 @@ environments:
 - key: staging
 - key: production
 ingress:
-  domain: ""
+  domain: yjx.bcnl.work
   externalDNS: false
   tls:
     email: ""
